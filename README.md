@@ -8,16 +8,38 @@
 
 - Make sure you are at the parent directory of the project
 - If you're using MacOS or Linux
-  - `cd NCS-ThuKhanh`
-  - `export PYTHONPATH=$PYTHONPATH:.`
+
+  ```sh
+  cd NCS-ThuKhanh
+  export PYTHONPATH=$PYTHONPATH:.
+  ```
+
 - If you're on a Window
-  - `dir NCS-ThuKhanh`
-  - `set PYTHONPATH=%PYTHONPATH%;.`
+
+  ```sh
+  dir NCS-ThuKhanh
+  set PYTHONPATH=%PYTHONPATH%;.
+  ```
 
 ## Run the code
 
 - **Install necessary packages** \
-  `pip install -r requirements.txt`
+
+  ```sh
+  pip install -r requirements.txt
+  ```
 
 - **Run the code** \
-  Provide path to the dataset in file `main.py` and run `python main.py` in the terminal
+  Provide path to the dataset in file `main.py` and run the following command in the terminal
+  ```sh
+  python main.py
+  ```
+
+new code
+based on the result of the previous code, IV values
+
+- IV < 0.1 => remove - this has to do first
+- normalized IV values to make sum of it = 1(1/sum(all))
+
+- a function for reverting values(helper)
+- a function to normalize all values()
